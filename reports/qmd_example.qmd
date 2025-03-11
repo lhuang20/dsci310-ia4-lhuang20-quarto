@@ -5,6 +5,10 @@ format:
   html:
     toc: true
     toc-depth: 4
+execute:
+  echo: false
+  warning: false
+  error: false
 bibliography: references.bib
 editor: source
 ---
