@@ -27,8 +27,6 @@ docs/index.html: reports/qmd_example.qmd results
 	quarto render reports/qmd_example.qmd
 	mv reports/qmd_example.html docs/index.html
 
-# report:
-# 	make index.html
 # clean
 clean:
 	rm -rf results
